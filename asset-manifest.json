@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-page/static/css/main.5dad18a5.chunk.css",
+    "main.js": "/react-page/static/js/main.d46427df.chunk.js",
+    "main.js.map": "/react-page/static/js/main.d46427df.chunk.js.map",
+    "runtime-main.js": "/react-page/static/js/runtime-main.a0d5550d.js",
+    "runtime-main.js.map": "/react-page/static/js/runtime-main.a0d5550d.js.map",
+    "static/js/2.934cf20d.chunk.js": "/react-page/static/js/2.934cf20d.chunk.js",
+    "static/js/2.934cf20d.chunk.js.map": "/react-page/static/js/2.934cf20d.chunk.js.map",
+    "static/js/3.bd24f3f5.chunk.js": "/react-page/static/js/3.bd24f3f5.chunk.js",
+    "static/js/3.bd24f3f5.chunk.js.map": "/react-page/static/js/3.bd24f3f5.chunk.js.map",
+    "index.html": "/react-page/index.html",
+    "static/css/main.5dad18a5.chunk.css.map": "/react-page/static/css/main.5dad18a5.chunk.css.map",
+    "static/js/2.934cf20d.chunk.js.LICENSE.txt": "/react-page/static/js/2.934cf20d.chunk.js.LICENSE.txt",
+    "static/media/arduino.png": "/react-page/static/media/arduino.51319eb1.png",
+    "static/media/c.png": "/react-page/static/media/c.c9a1acc4.png",
+    "static/media/java.png": "/react-page/static/media/java.fdabd4e1.png",
+    "static/media/mongodb.png": "/react-page/static/media/mongodb.71feb695.png",
+    "static/media/mysql.png": "/react-page/static/media/mysql.0da7cd18.png",
+    "static/media/netcore.png": "/react-page/static/media/netcore.ea059740.png",
+    "static/media/nodejs.png": "/react-page/static/media/nodejs.30ca82b0.png",
+    "static/media/pic.bfa45b7e.jpg": "/react-page/static/media/pic.bfa45b7e.jpg",
+    "static/media/postgresql.png": "/react-page/static/media/postgresql.b1a4d85e.png",
+    "static/media/raspberrypi.png": "/react-page/static/media/raspberrypi.58f8f905.png",
+    "static/media/react.png": "/react-page/static/media/react.dfb12883.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0d5550d.js",
+    "static/js/2.934cf20d.chunk.js",
+    "static/css/main.5dad18a5.chunk.css",
+    "static/js/main.d46427df.chunk.js"
+  ]
+}
