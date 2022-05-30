@@ -1,0 +1,37 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  border: black 3px solid;
+  border-radius: 5px;
+}
+
+.cards:hover {
+  background: #f3f3f3;
+}
+
+.cards img {
+  height: 100px;
+  width: 100px;
+}
+
+.cards p {
+  text-align: justify;
+  text-justify: inter-character;
+  text-align-last: left;
+}
+
+.cards a{
+  background:black;
+  color:white;
+  text-decoration: none;
+  padding:10px;
+  border-radius:20px;
+}

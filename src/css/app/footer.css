@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #404040;
+  height: 200px;
+  z-index: -1;
+}

@@ -1,0 +1,27 @@
+.cardplace{
+display:flex;
+flex-direction: column;
+padding:20px;
+}
+
+.filter-bar{
+    margin:40px auto 0px;
+    background:#66598f;
+    padding:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.filter-bar a{
+    color:white;
+    text-decoration: none;
+    margin:5px;
+    padding:10px;
+    border:1px solid;
+}
+
+.filter-bar .active{
+    background:#404040;
+}

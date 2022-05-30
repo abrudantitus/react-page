@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.App .page {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 180px;
+  background:white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height:100vh;
+}
+
+.App .fade-appear .fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.App .fade-appear-active .fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0ms linear 0ms;
+}
+
+.App .fade-exit {
+  opacity: 1;
+}
+
+.App .fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0ms linear;
+}

@@ -1,0 +1,185 @@
+.erorcontent
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:100px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height:100%;
+}
+
+.erorcontent .mario-suport {
+    height: 100%;
+}
+
+
+.erorcontent .mario-suport{
+    margin:10px;
+}
+
+.erorcontent .erortext
+{
+    width:100%;
+    text-align: center;
+    font-family: 'VT323';
+    font-size:150px;
+}
+
+
+.erorcontent .pixel-mario {
+    margin:20px;
+    width: 10px;
+    height: 10px;
+    background-color: #f44336;
+    box-shadow: -90px 0 0 0 #ffccbc,
+        -80px 0 0 0 #ffccbc,
+        -70px 0 0 0 #ffccbc,
+        -60px 0 0 0 #f44336,
+        -50px 0 0 0 #f44336,
+        -40px 0 0 0 #f44336,
+        -30px 0 0 0 #f44336,
+        -20px 0 0 0 #2196f3,
+        -10px 0 0 0 #f44336,
+        10px 0 0 0 #f44336,
+        20px 0 0 0 #2196f3,
+        30px 0 0 0 #f44336,
+        40px 0 0 0 #f44336,
+        70px 0 0 0 #795548,
+        -30px -10px 0 0 #ffccbc,
+        -20px -10px 0 0 #ffccbc,
+        -10px -10px 0 0 #ffccbc,
+        0px -10px 0 0 #ffccbc,
+        10px -10px 0 0 #ffccbc,
+        20px -10px 0 0 #ffccbc,
+        30px -10px 0 0 #ffccbc,
+        40px -10px 0 0 #f44336,
+        50px -10px 0 0 #f44336,
+        -50px -20px 0 0 #795548,
+        -40px -20px 0 0 #795548,
+        -30px -20px 0 0 #ffccbc,
+        -20px -20px 0 0 #ffccbc,
+        -10px -20px 0 0 #ffccbc,
+        0px -20px 0 0 #ffccbc,
+        10px -20px 0 0 #333,
+        20px -20px 0 0 #333,
+        30px -20px 0 0 #333,
+        40px -20px 0 0 #333,
+        50px -20px 0 0 #f44336,
+        -50px -30px 0 0 #795548,
+        -40px -30px 0 0 #ffccbc,
+        -30px -30px 0 0 #795548,
+        -20px -30px 0 0 #795548,
+        -10px -30px 0 0 #ffccbc,
+        0px -30px 0 0 #ffccbc,
+        10px -30px 0 0 #ffccbc,
+        20px -30px 0 0 #333,
+        30px -30px 0 0 #ffccbc,
+        40px -30px 0 0 #ffccbc,
+        50px -30px 0 0 #ffccbc,
+        60px -30px 0 0 #f44336,
+        -50px -40px 0 0 #795548,
+        -40px -40px 0 0 #ffccbc,
+        -30px -40px 0 0 #795548,
+        -20px -40px 0 0 #ffccbc,
+        -10px -40px 0 0 #ffccbc,
+        0px -40px 0 0 #ffccbc,
+        10px -40px 0 0 #333,
+        20px -40px 0 0 #ffccbc,
+        30px -40px 0 0 #ffccbc,
+        40px -40px 0 0 #ffccbc,
+        50px -40px 0 0 #f44336,
+        60px -40px 0 0 #f44336,
+        -40px -50px 0 0 #795548,
+        -30px -50px 0 0 #795548,
+        -20px -50px 0 0 #795548,
+        -10px -50px 0 0 #ffccbc,
+        0px -50px 0 0 #ffccbc,
+        10px -50px 0 0 #333,
+        20px -50px 0 0 #ffccbc,
+        40px -50px 0 0 #f44336,
+        50px -50px 0 0 #f44336,
+        60px -50px 0 0 #f44336,
+        -40px -60px 0 0 #f44336,
+        -30px -60px 0 0 #f44336,
+        -20px -60px 0 0 #f44336,
+        -10px -60px 0 0 #f44336,
+        0px -60px 0 0 #f44336,
+        10px -60px 0 0 #f44336,
+        20px -60px 0 0 #f44336,
+        30px -60px 0 0 #f44336,
+        40px -60px 0 0 #f44336,
+        50px -60px 0 0 #ffccbc,
+        60px -60px 0 0 #ffccbc,
+        -30px -70px 0 0 #f44336,
+        -20px -70px 0 0 #f44336,
+        -10px -70px 0 0 #f44336,
+        0px -70px 0 0 #f44336,
+        10px -70px 0 0 #f44336,
+        40px -70px 0 0 #ffccbc,
+        50px -70px 0 0 #ffccbc,
+        60px -70px 0 0 #ffccbc,
+        -90px 10px 0 0 #ffccbc,
+        -80px 10px 0 0 #ffccbc,
+        -70px 10px 0 0 #ffccbc,
+        -60px 10px 0 0 #f44336,
+        -50px 10px 0 0 #f44336,
+        -40px 10px 0 0 #f44336,
+        -30px 10px 0 0 #f44336,
+        -20px 10px 0 0 #f44336,
+        -10px 10px 0 0 #2196f3,
+        0px 10px 0 0 #f44336,
+        10px 10px 0 0 #f44336,
+        20px 10px 0 0 #f44336,
+        30px 10px 0 0 #2196f3,
+        60px 10px 0 0 #795548,
+        70px 10px 0 0 #795548,
+        -80px 20px 0 0 #ffccbc,
+        -40px 20px 0 0 #f44336,
+        -30px 20px 0 0 #f44336,
+        -20px 20px 0 0 #f44336,
+        -10px 20px 0 0 #2196f3,
+        0px 20px 0 0 #2196f3,
+        10px 20px 0 0 #2196f3,
+        20px 20px 0 0 #2196f3,
+        30px 20px 0 0 #ffeb3b,
+        40px 20px 0 0 #2196f3,
+        50px 20px 0 0 #2196f3,
+        60px 20px 0 0 #795548,
+        70px 20px 0 0 #795548,
+        -30px 30px 0 0 #2196f3,
+        -20px 30px 0 0 #2196f3,
+        -10px 30px 0 0 #2196f3,
+        0px 30px 0 0 #ffeb3b,
+        10px 30px 0 0 #2196f3,
+        20px 30px 0 0 #2196f3,
+        30px 30px 0 0 #2196f3,
+        40px 30px 0 0 #2196f3,
+        50px 30px 0 0 #2196f3,
+        60px 30px 0 0 #795548,
+        70px 30px 0 0 #795548,
+        -50px 40px 0 0 #795548,
+        -40px 40px 0 0 #795548,
+        -30px 40px 0 0 #2196f3,
+        -20px 40px 0 0 #2196f3,
+        -10px 40px 0 0 #2196f3,
+        0px 40px 0 0 #2196f3,
+        10px 40px 0 0 #2196f3,
+        20px 40px 0 0 #2196f3,
+        30px 40px 0 0 #2196f3,
+        40px 40px 0 0 #2196f3,
+        50px 40px 0 0 #2196f3,
+        60px 40px 0 0 #795548,
+        70px 40px 0 0 #795548,
+        -60px 50px 0 0 #795548,
+        -50px 50px 0 0 #795548,
+        -40px 50px 0 0 #795548,
+        -30px 50px 0 0 #2196f3,
+        -20px 50px 0 0 #2196f3,
+        -10px 50px 0 0 #2196f3,
+        0px 50px 0 0 #2196f3,
+        10px 50px 0 0 #2196f3,
+        20px 50px 0 0 #2196f3,
+        -60px 60px 0 0 #795548,
+        -50px 60px 0 0 #795548;
+}

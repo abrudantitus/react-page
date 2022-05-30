@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.about .cardplace {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 700px;
+}
+
+.about .text {
+  width: 700px;
+  font-size: 25px;
+  padding: 30px;
+  text-align: justify;
+  text-justify: distribute;
+  text-align-last: left;
+}
+
+@media only screen and (max-width: 700px) {
+  .about .cardplace {
+    width: auto;
+  }
+  .about .text {
+    width: auto;
+    font-size: 20px;
+  }
+}

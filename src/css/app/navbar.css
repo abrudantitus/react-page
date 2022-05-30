@@ -1,0 +1,128 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  top:0;
+  z-index: 2;
+  background: #404040;
+  position: fixed;
+}
+
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.navigation .nav-links {
+  margin: 0;
+}
+
+.scrolled {
+  position: fixed;
+  z-index: 3;
+}
+
+.navbar a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin: 10px 15px;
+  padding: 10px;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .active {
+  background-color: #66598f;
+  color: white;
+}
+
+.navigation .logo {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  align-content:center;
+  font-family: 'VT323';
+  font-size: 30px;
+  background: none;
+  border: none;
+  color:white;
+  max-width:100px;
+}
+
+.navigation .logo .firstpoint{
+  content:'';
+  width:4px;
+  height:4px;
+  position:absolute;
+  background:#404040;
+  transform:translate(-12px,-6.6px);
+}
+
+.navigation .logo .firstpoint::after{
+  content:'';
+  width:2.7px;
+  height:2.7px;
+  position:absolute;
+  background:red;
+  right:1px;
+  top:1px;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+.navbar .mobile-menu-icon {
+  display: none;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px);  }
+  65%  { transform: rotate(2.5turn) translate(0, 5px); }
+  to   { transform: translate(0, -0px); }  
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar .nav-links {
+    display: none;
+  }
+  .navbar .nav-links-mobile {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #404040;
+    left: 0;
+    top: 60px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(100% - 6vh);
+    z-index: 3;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .navbar a {
+    width: 90%;
+  }
+
+  .navbar .mobile-menu-icon {
+    display: block;
+    margin-top:5px;
+    margin-right:10px;
+    padding: 0;
+  }
+}
